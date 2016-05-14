@@ -62,7 +62,7 @@ namespace Famoser.MSSQLConverter
                                 break;
                             else
                             {
-                                newline += lines[j];
+                                newline += "\n" + lines[j];
                                 lines.RemoveAt(j--);
                             }
                         }
